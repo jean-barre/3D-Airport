@@ -18,4 +18,10 @@ Item {
             mapHeight: 100
         }
     }
+
+    Control {
+        height: 100
+        width: parent.width
+        anchors.bottom: parent.bottom
+    }
 }
