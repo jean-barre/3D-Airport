@@ -12,5 +12,6 @@
         <file>qml/assets/obj/pont_du_gard.obj</file>
         <file>qml/Control.qml</file>
         <file>qml/assets/img/play_pause.png</file>
+        <file>qml/ScenarioCamera.qml</file>
     </qresource>
 </RCC>
