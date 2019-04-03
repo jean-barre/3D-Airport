@@ -22,6 +22,8 @@ Item {
 
         MouseArea {
             anchors.fill: parent
+            onPressed: play_pause_button.opacity = 0.5
+            onReleased: play_pause_button.opacity = 1
             onClicked: root.playPauseClicked()
         }
     }
