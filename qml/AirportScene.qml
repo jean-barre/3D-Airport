@@ -3,9 +3,14 @@ import Qt3D.Core 2.0
 import Qt3D.Render 2.0
 import Qt3D.Input 2.0
 import Qt3D.Extras 2.0
+import "3D_entities"
+import "3D_ads"
 
 Entity {
     id: sceneRoot
+
+    property int mapWidth
+    property int mapHeight
 
     Camera {
         id: camera
@@ -34,4 +39,20 @@ Entity {
         // Event Source will be set by the Qt3DQuickWindow
         InputSettings { }
     ]
+
+    AdsEffect {
+        id: shadowMapEffect
+        shadowTexture: framegraph.shadowTexture
+        light: light
+    }
+
+    GroundPlane {
+        width: mapWidth
+        height: mapHeight
+        material: AdsMaterial {
+            effect: shadowMapEffect
+            diffuseColor: Qt.rgba(0.2, 0.5, 0.3, 1.0)
+            specularColor: Qt.rgba(0, 0, 0, 1.0)
+        }
+    }
 }
