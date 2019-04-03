@@ -17,6 +17,7 @@ Item {
     }
 
     Control {
+        objectName: "control"
         height: 100
         width: parent.width
         anchors.bottom: parent.bottom
