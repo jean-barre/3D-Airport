@@ -9,9 +9,11 @@ import "3D_ads"
 Entity {
     id: sceneRoot
 
+    property int scenario_period: 20000
 
     ScenarioCamera {
         id: camera
+        period: scenario_period
     }
 
     FirstPersonCameraController { camera: camera }
