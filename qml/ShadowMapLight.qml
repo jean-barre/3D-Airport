@@ -64,7 +64,7 @@ Entity {
         id: lightCamera
         objectName: "lightCameraLens"
         projectionType: CameraLens.PerspectiveProjection
-        fieldOfView: 45
+        fieldOfView: 90
         aspectRatio: 1
         nearPlane : 0.1
         farPlane : 200.0
