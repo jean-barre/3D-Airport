@@ -64,4 +64,13 @@ Entity {
             specularColor: Qt.rgba(0, 0, 0, 1.0)
         }
     }
+
+    Bridge {
+        material: AdsMaterial {
+            effect: shadowMapEffect
+            diffuseColor: Qt.rgba(0.6, 0.4, 0.3, 0.6)
+            specularColor: Qt.rgba(0.5, 0.5, 0.5, 1.0)
+            shininess: 100
+        }
+    }
 }
