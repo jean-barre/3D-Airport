@@ -17,7 +17,7 @@ Entity {
         property real yAngle: 0.0
         property real zAngle: 0.0
         scale: 0.04
-        translation: Qt.vector3d(-8, -6, 0)
+        translation: Qt.vector3d(8, -6, 0)
         rotation: fromAxesAndAngles( Qt.vector3d(1, 0, 0), xAngle,
                                     Qt.vector3d(0, 1, 0), yAngle,
                                     Qt.vector3d(0,0,1), zAngle)
