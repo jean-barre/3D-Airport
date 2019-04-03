@@ -1,5 +1,8 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>qml/AirportScene.qml</file>
+        <file>qml/ShadowMapFrameGraph.qml</file>
+        <file>qml/ShadowMapLight.qml</file>
     </qresource>
 </RCC>
