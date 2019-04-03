@@ -55,4 +55,13 @@ Entity {
             specularColor: Qt.rgba(0, 0, 0, 1.0)
         }
     }
+
+    Road {
+        height: mapHeight
+        material: AdsMaterial {
+            effect: shadowMapEffect
+            diffuseColor: Qt.rgba(0.8, 0.8, 0.8, 1.0)
+            specularColor: Qt.rgba(0, 0, 0, 1.0)
+        }
+    }
 }

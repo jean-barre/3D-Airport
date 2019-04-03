@@ -7,5 +7,6 @@
         <file>qml/3D_entities/GroundPlane.qml</file>
         <file>qml/3D_ads/AdsEffect.qml</file>
         <file>qml/3D_ads/AdsMaterial.qml</file>
+        <file>qml/3D_entities/Road.qml</file>
     </qresource>
 </RCC>
