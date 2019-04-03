@@ -9,8 +9,6 @@ import "3D_ads"
 Entity {
     id: sceneRoot
 
-    property int mapWidth
-    property int mapHeight
 
     Camera {
         id: camera
@@ -47,8 +45,6 @@ Entity {
     }
 
     GroundPlane {
-        width: mapWidth
-        height: mapHeight
         material: AdsMaterial {
             effect: shadowMapEffect
             diffuseColor: Qt.rgba(0.2, 0.5, 0.3, 1.0)
@@ -57,7 +53,6 @@ Entity {
     }
 
     Road {
-        height: mapHeight
         material: AdsMaterial {
             effect: shadowMapEffect
             diffuseColor: Qt.rgba(0.8, 0.8, 0.8, 1.0)

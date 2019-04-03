@@ -13,10 +13,7 @@ Item {
         anchors.fill: parent
         aspects: ["render", "logic", "input"]
 
-        AirportScene {
-            mapWidth: 100
-            mapHeight: 100
-        }
+        AirportScene { }
     }
 
     Control {

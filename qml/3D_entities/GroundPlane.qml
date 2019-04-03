@@ -55,13 +55,11 @@ import Qt3D.Extras 2.0
 Entity {
     id: root
     property Material material
-    property int width
-    property int height
 
     PlaneMesh {
         id: groundMesh
-        width: root.width
-        height: root.height
+        width: 200
+        height: 200
         meshResolution: Qt.size(2, 2)
     }
 
