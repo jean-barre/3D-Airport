@@ -4,5 +4,8 @@
         <file>qml/AirportScene.qml</file>
         <file>qml/ShadowMapFrameGraph.qml</file>
         <file>qml/ShadowMapLight.qml</file>
+        <file>qml/3D_entities/GroundPlane.qml</file>
+        <file>qml/3D_ads/AdsEffect.qml</file>
+        <file>qml/3D_ads/AdsMaterial.qml</file>
     </qresource>
 </RCC>
