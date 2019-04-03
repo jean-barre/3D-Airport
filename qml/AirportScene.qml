@@ -47,7 +47,7 @@ Entity {
     Road {
         material: AdsMaterial {
             effect: shadowMapEffect
-            diffuseColor: Qt.rgba(0.8, 0.8, 0.8, 1.0)
+            diffuseColor: Qt.rgba(0.3, 0.3, 0.3, 1.0)
             specularColor: Qt.rgba(0, 0, 0, 1.0)
         }
     }

@@ -13,5 +13,6 @@
         <file>qml/Control.qml</file>
         <file>qml/assets/img/play_pause.png</file>
         <file>qml/ScenarioCamera.qml</file>
+        <file>qml/assets/obj/ellipse.obj</file>
     </qresource>
 </RCC>
