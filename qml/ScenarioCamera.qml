@@ -29,7 +29,13 @@ Camera {
     upVector: Qt.vector3d(0.0, 1.0, 0.0)
 
     function resumeAnimation() {
-        tAnimation.start()
+        if (tAnimation.running && !tAnimation.paused) {
+            tAnimation.pause()
+        } else if (tAnimation.paused) {
+            tAnimation.resume()
+        } else {
+            tAnimation.start()
+        }
     }
 
     QQ2.NumberAnimation {
