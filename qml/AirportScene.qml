@@ -74,4 +74,14 @@ Entity {
             shininess: 100
         }
     }
+
+    Toyplane {
+        material: AdsMaterial {
+            effect: shadowMapEffect
+            diffuseColor: Qt.rgba(0.9, 0.5, 0.3, 1.0)
+            shininess: 75
+        }
+        t: global_time
+        period: scenario_period
+    }
 }

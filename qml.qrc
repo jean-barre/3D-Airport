@@ -14,5 +14,7 @@
         <file>qml/assets/img/play_pause.png</file>
         <file>qml/ScenarioCamera.qml</file>
         <file>qml/assets/obj/ellipse.obj</file>
+        <file>qml/3D_entities/Toyplane.qml</file>
+        <file>qml/assets/obj/toyplane.obj</file>
     </qresource>
 </RCC>
