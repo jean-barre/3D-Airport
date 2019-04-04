@@ -7,6 +7,7 @@ Item {
     width: 200
     height: 50
 
+    property int scenario_period
     signal playPauseClicked()
     signal sliderValueChanged(int value)
 

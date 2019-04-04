@@ -9,11 +9,15 @@ Item {
     height: 768
     visible: true
 
+    property int scenario_period: 20000
+
     Scene3D {
         anchors.fill: parent
         aspects: ["render", "logic", "input"]
 
-        AirportScene { }
+        AirportScene {
+            scenario_period: scenario_period
+        }
     }
 
     Control {
@@ -21,5 +25,6 @@ Item {
         height: 100
         width: parent.width
         anchors.bottom: parent.bottom
+        scenario_period: scenario_period
     }
 }
