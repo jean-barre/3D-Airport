@@ -9,7 +9,7 @@ Item {
 
     property int scenario_period
     signal playPauseClicked()
-    signal sliderValueChanged(int value)
+    function scenarioTimeUpdated(time) { slider.value = time }
 
     Image {
         id: play_pause_button
@@ -38,6 +38,5 @@ Item {
         anchors.leftMargin: 5
         anchors.verticalCenter: parent.verticalCenter
 
-        onValueChanged: root.sliderValueChanged(value)
     }
 }

@@ -7,6 +7,9 @@ import Qt3D.Extras 2.0
 Camera {
     id: camera
 
+    signal updateTime(int time);
+    onTChanged: updateTime(t)
+
     property int period
     property int t: 0
     property double x_max: 30.0
