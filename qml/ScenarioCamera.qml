@@ -41,13 +41,5 @@ Camera {
         }
     }
 
-    QQ2.NumberAnimation {
-        id: tAnimation
-        target: camera
-        property: "t"
-        loops: QQ2.Animation.Infinite
-        duration: period
-        from: 0
-        to: period
-    }
+
 }

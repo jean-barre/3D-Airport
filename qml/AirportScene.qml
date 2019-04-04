@@ -10,9 +10,21 @@ Entity {
     id: sceneRoot
 
     property int scenario_period: 20000
+    property int global_time
+
+    QQ2.NumberAnimation {
+        id: tAnimation
+        target: sceneRoot
+        property: "global_time"
+        loops: QQ2.Animation.Infinite
+        duration: scenario_period
+        from: 0
+        to: scenario_period
+    }
 
     ScenarioCamera {
         id: camera
+        t: global_time
         period: scenario_period
     }
 
